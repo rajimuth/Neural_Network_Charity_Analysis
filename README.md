@@ -23,5 +23,17 @@ The purpose of the analysis is to help a foundation predict where to make invest
 - Merge one-hot encoding Dataframe with the original dataframe and drop the originals
 
 ### Compile, Train, and Evaluate the Model
-- 
+- Neural network model by designed by assigning the number of input features and nodes for each layer using Tensorflow Keras.
+- Assigned RELU activation function for first and second hidden layers
+- Assigned Sigmoid activation function for the output layer
+- Compiled and trained the model
+- The model was evaluated using the test data to determine the loss and accuracy
+
+<img width="323" alt="image" src="https://user-images.githubusercontent.com/94877067/200393973-b2ede378-86fa-4d2c-ae8d-d511e342bec3.png">
+
+### Summary
+
+- Optimization with multiple layers, scaled data, different noder per layer gave loss of 0.55 and 72% accuracy.
+- With less than 72% accuracy, other machine learning models need to be analyzed for a fairly reliable classifier
+- Future analysis will aim at applying Random Forest Model as they can perform at similar capacity as Neural Network but cam handle input data differently to predict the classification
 
